@@ -1,0 +1,27 @@
+﻿<Window x:Class="_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,20">
+                    <TextBlock x:Name="TxtDice1" Text="-" FontSize="48" FontWeight="Bold" Margin="10"/>
+                    <TextBlock x:Name="TxtDice2" Text="-" FontSize="48" FontWeight="Bold" Margin="10"/>
+                    <TextBlock x:Name="TxtDice3" Text="-" FontSize="48" FontWeight="Bold" Margin="10"/>
+                </StackPanel>
+
+                <TextBlock x:Name="TxtDiceResult" Text="目前得分：0 分" FontSize="24" Foreground="Blue" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="A. 單純加總" FontSize="16" Width="120" Height="40" Margin="10" Click="BtnDiceSum_Click"/>
+                    <Button Content="B. 香腸遊戲" FontSize="16" Width="120" Height="40" Margin="10" Click="BtnDiceGame_Click"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

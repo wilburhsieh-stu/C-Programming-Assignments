@@ -1,0 +1,17 @@
+# Visual Studio 暫存檔
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.dbmdl
+*.vshost.*
+
+# 編譯結果檔
+*.exe
+*.dll
+*.pdb
+*.cache
+
+# 隱藏檔
+.DS_Store
