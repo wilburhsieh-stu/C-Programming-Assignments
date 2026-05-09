@@ -49,5 +49,5 @@
 
 ### 開發環境 (Environment)
 * **Languages:** C, C#, XAML
-* **Tools:** Visual Studio 2022, Git / GitHub Bash
+* **Tools:** Code::Blocks/Visual Studio 2022, Git / GitHub Bash
 * **Course Material:** Pro WPF 4.5 in C# (Apress)
